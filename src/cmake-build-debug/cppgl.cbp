@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cppgl"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SDL2\;CMake Files\..\..\..\..\..\..\usr\share\;CMake Files\..\..\..\..\..\..\usr\share\cmake\;CMake Files\..\..\..\..\..\..\usr\share\cmake\glm\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/fudgeu/Documents/code/cppgl/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/fudgeu/Documents/code/cppgl/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/fudgeu/Documents/code/cppgl/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/fudgeu/Documents/code/cppgl/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/fudgeu/Documents/code/cppgl/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cppgl">
+				<Option output="/home/fudgeu/Documents/code/cppgl/src/cmake-build-debug/cppgl" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fudgeu/Documents/code/cppgl/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/SDL2"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/fudgeu/Documents/code/cppgl/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 cppgl"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/fudgeu/Documents/code/cppgl/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/fudgeu/Documents/code/cppgl/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/fudgeu/Documents/code/cppgl/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cppgl/fast">
+				<Option output="/home/fudgeu/Documents/code/cppgl/src/cmake-build-debug/cppgl" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fudgeu/Documents/code/cppgl/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/SDL2"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/fudgeu/Documents/code/cppgl/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 cppgl/fast"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/fudgeu/Documents/code/cppgl/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/fudgeu/Documents/code/cppgl/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/fudgeu/Documents/code/cppgl/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/fudgeu/Documents/code/cppgl/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/fudgeu/Documents/code/cppgl/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/fudgeu/Documents/code/cppgl/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/fudgeu/Documents/code/cppgl/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/fudgeu/Documents/code/cppgl/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/fudgeu/Documents/code/cppgl/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/fudgeu/Documents/code/cppgl/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/fudgeu/Documents/code/cppgl/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/fudgeu/Documents/code/cppgl/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/fudgeu/Documents/code/cppgl/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/camera/camera.cpp">
+			<Option target="cppgl"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/camera/camera.h">
+			<Option target="cppgl"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/engine.cpp">
+			<Option target="cppgl"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/engine.h">
+			<Option target="cppgl"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/entity/entity.cpp">
+			<Option target="cppgl"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/entity/entity.h">
+			<Option target="cppgl"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/entity/player.cpp">
+			<Option target="cppgl"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/entity/player.h">
+			<Option target="cppgl"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/event/key_event_handler.cpp">
+			<Option target="cppgl"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/event/key_event_handler.h">
+			<Option target="cppgl"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/extern/stb_image/stb_image.cpp">
+			<Option target="cppgl"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/extern/stb_image/stb_image.h">
+			<Option target="cppgl"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/main.cpp">
+			<Option target="cppgl"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/mesh/mesh.cpp">
+			<Option target="cppgl"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/mesh/mesh.h">
+			<Option target="cppgl"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/mesh/shaded_mesh.cpp">
+			<Option target="cppgl"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/mesh/shaded_mesh.h">
+			<Option target="cppgl"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/model/bound_checker.cpp">
+			<Option target="cppgl"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/model/bound_checker.h">
+			<Option target="cppgl"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/model/bound_result.h">
+			<Option target="cppgl"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/model/bounding_box.cpp">
+			<Option target="cppgl"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/model/bounding_box.h">
+			<Option target="cppgl"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/model/model.cpp">
+			<Option target="cppgl"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/model/model.h">
+			<Option target="cppgl"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/model/model_factory.cpp">
+			<Option target="cppgl"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/model/model_factory.h">
+			<Option target="cppgl"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/object/object.cpp">
+			<Option target="cppgl"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/object/object.h">
+			<Option target="cppgl"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/render/render_system.cpp">
+			<Option target="cppgl"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/render/render_system.h">
+			<Option target="cppgl"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/shader/mesh_shader.cpp">
+			<Option target="cppgl"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/shader/mesh_shader.h">
+			<Option target="cppgl"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/shader/shader_registry.cpp">
+			<Option target="cppgl"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/shader/shader_registry.h">
+			<Option target="cppgl"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/texture/texture.cpp">
+			<Option target="cppgl"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/texture/texture.h">
+			<Option target="cppgl"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/vector/vec2d.h">
+			<Option target="cppgl"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/world/world.cpp">
+			<Option target="cppgl"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/world/world.h">
+			<Option target="cppgl"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/../../../../../../usr/lib/x86_64-linux-gnu/cmake/SDL2/sdl2-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SDL2\"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/../../../../../../usr/lib/x86_64-linux-gnu/cmake/SDL2/sdl2-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SDL2\"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/../../../../../../usr/share/cmake/glm/glmConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake\glm\"/>
+		</Unit>
+		<Unit filename="/home/fudgeu/Documents/code/cppgl/src/../../../../../../usr/share/cmake/glm/glmConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake\glm\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
